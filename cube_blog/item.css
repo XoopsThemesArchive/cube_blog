@@ -1,0 +1,67 @@
+/*#######################################################################*/
+/*                            News   Items                               */
+/*#######################################################################*/
+
+.item {
+	background:transparent url(images/bg_item.png) no-repeat; 
+	padding:20px 10px; 
+	margin:0;
+}
+
+.itemHead {
+	margin: 0;
+	padding: 4px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing:0.2em;
+	color:#4D7184;
+	border-bottom: 1px solid #ccc;
+}
+
+.itemInfo {
+	margin: 0;
+	padding: 4px;
+	border-top: 1px solid #efefef;
+	text-align: right;
+	
+}
+
+.itemTitle {
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing:0.2em;
+	color:#4D7184;
+}
+
+.itemTitle a {
+	text-decoration:none;
+	color:#4D7184;
+}
+
+.itemTitle a:visited {
+	color:#4D7184;
+}
+
+.itemTitle a:hover {
+	color:#78AABE;
+}
+
+.itemPoster, .itemPostDate, .itemStats, .itemAdminLink, .itemPermaLink {
+	font-size: 0.9em;
+}
+
+.itemBody {
+	margin: 0;
+	padding: 4px;
+}
+
+.itemText {
+	margin: 4px;
+	line-height: 1.5em;
+}
+
+.itemFoot {
+	text-align: right;
+	margin: 0;
+	padding: 3px;
+}

@@ -1,0 +1,216 @@
+/*#######################################################################*/
+/*
+/*	Project Name : XOOPS Cube 
+/*	Project Site : http://www.xoopscube.org
+/*	
+/*	Theme Name	 : Xoops Cube Blog
+/*	Theme Site	 : http://www.xoopserver.com
+/*
+/*	Author	: Nuno Luciano
+/*  E-mail  : xoopserver@gmail.com
+/*  Date	: 25 - 05 - 2005
+/*  Review	: 11 - 11 - 2006
+/*
+/*  License : http://creativecommons.org/licenses/by-nc-nd/2.0/
+/*
+/*#######################################################################*
+
+
+/*#######################################################################*/
+/*                           Import Specific Styles                      */
+/*#######################################################################*/
+
+@import "html.css";
+@import "common.css";
+@import "item.css";
+@import "menu.css";
+
+/*#######################################################################*/
+/*                             Theme   Layout                            */
+/*#######################################################################*/
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height:14px;
+	color: #6B8DA5;
+	margin: 0;
+	padding: 0;
+	background:#284757 url(images/bg.png) repeat-x;
+	text-align:center;
+}
+
+div {
+	padding:0;
+	margin:0; 
+	text-align:left;
+	}
+
+#container{
+	position:relative;
+	width: 774px;
+	margin: auto;
+}
+
+#head{
+	width:774px;
+	height:145px;
+	background:transparent url(images/bg_header.png) no-repeat;
+	padding: 0;
+}
+
+#cube_logo {
+	position:absolute;
+	top:50px;
+	left:1px;
+	display:block;
+	width:144px;
+	height:22px;
+	border:1px solid #AACED6;
+	}
+	
+#cube_logo span {
+	position:absolute;
+	height:1px;
+	margin-top:-888px;
+	}
+
+#layout{
+	background:transparent url(images/bg_layout.png) repeat-y;
+	padding:1px 15px 1px 20px;
+}
+
+#content {
+	padding:10px;
+	}
+	
+#footer{
+	width:774px;
+	height:65px;
+	background:transparent url(images/bg_foot.gif) no-repeat;
+}
+
+/*#######################################################################*/
+/*                             Side  Menu                                */
+/*#######################################################################*/
+
+#side {
+	position:relative;
+	width:247px;
+	float:right;
+	margin: 10px 5px;
+}
+
+#side_header {
+	background:transparent url(images/bg_side_top.png) no-repeat; 
+	height:40px;
+	padding:10px 10px;
+}
+
+#side_header h1 {
+	padding:4px 10px;
+	}
+
+#side_blocks {
+	background:transparent url(images/bg_side.png);
+	padding:10px 10px;
+	}
+
+#side_footer{
+	background:transparent url(images/bg_side_bottom.png) no-repeat; 
+	height:70px;
+	}
+
+/*#######################################################################*/
+/*                        Side  Block Left & Right                       */
+/*#######################################################################*/
+
+#side .LR_blocks {
+	background:url(images/bg_side_block.png) no-repeat; 
+	padding:10px 20px;
+	}
+
+#side .LR_blocks a:link, .LR_blocks a:visited, .LR_blocks a:active {
+	color: #4D7184;
+	text-decoration:none; 
+	font:bold 11px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+#side .LR_blocks a:hover {
+	color:#DFE8EF;
+	text-decoration:none; 
+	font:bold 11px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	} 
+
+.blockTitle {
+	margin: 10px 0;
+	font-size:14px;
+	font-weight:bold;
+	color:#4D7184;
+
+	} 
+
+.blockContent {	}
+
+#side p {
+	color:#86ACAA;
+	}
+
+#side h2 {	
+	height:20px;
+	padding:5px 0 30px;
+	font:bold 11px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	}
+
+#side .side_links {
+	position:absolute;
+	margin:20px 0;
+	text-align:center;
+	width:247px;
+	font-weight:bold;
+	text-decoration:none;
+	}
+
+/*#######################################################################*/
+/*                             Center  Blocks                            */
+/*#######################################################################*/
+
+.centerBlocks {
+	background:transparent url(images/bg_item.png) no-repeat; 
+	padding:20px 20px;  
+	margin:0;
+}
+
+.centerBlocks h1 {
+	font-size: 1.2em;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing:0.2em;
+	}
+
+/*#######################################################################*/
+/*                             Footer  Credits                           */
+/*#######################################################################*/
+
+#footer {
+	padding:20px  0px;
+	}
+	
+#footer a:link, #footer a:visited, #footer a:active  {
+	 color: #6B8DA5;
+	text-decoration:none;
+	}
+	
+#footer a:hover {
+	color: #DFE8EF;
+}
+	
+#footer .credits {
+	margin:5px 20px;
+	}
+
+#footer_links { 
+	float:right;
+	width:235px; 
+	}
+
+.clear{clear:both;}

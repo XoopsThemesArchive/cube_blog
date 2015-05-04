@@ -1,0 +1,77 @@
+/*#######################################################################*/
+/*                            HTML  TAGS                                 */
+/*#######################################################################*/
+
+table {
+	width: 100%;
+}
+
+th {
+	color: #4D7184;
+	padding: 8px;
+	vertical-align: middle;
+}
+
+td {
+	margin : 0;
+	padding: 0;
+	vertical-align: top;
+	border: 0;
+}
+
+a:link, a:visited, a:active, a:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#4D7184;
+}
+
+a {
+	font-weight:bold;
+	text-decoration: none;
+}
+
+a:visited {
+	
+}
+
+a:hover {
+	color: #42A8B0;
+	text-decoration: underline;
+}
+
+h1 {
+	font:normal 21px Trebuchet MS, Tahoma, Arial, Helvetica, sans-serif;
+	color:#4D7184;
+	}
+
+h2 {
+	font:bold 16px Trebuchet MS, Tahoma, Arial, Helvetica, sans-serif;
+	}
+
+h1, h2, h3 {
+	margin:10px 0 0 0; padding:0;
+	}
+
+p {
+	margin:4px; padding:0;
+	}
+
+ul {
+	text-align: left;
+	margin: 2px 2px 2px 15px;
+	padding: 2px;
+	list-style: square outside;
+}
+
+img {
+	border:0;
+}
+
+input, select, textarea {
+	background-color:#DFE8EE;
+	color:#4D7184;
+	border-top:1px solid #fff;
+	border-right:1px solid #4D7184;
+	border-bottom: 1px solid #4D7184;
+	border-left:1px solid #fff; 
+}
